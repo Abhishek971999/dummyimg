@@ -1,0 +1,30 @@
+{
+  "name": "dummyimg",
+  "version": "1.0.0",
+  "description": "CLI to get placeholder images on demand for projects",
+  "main": "src/cli.js",
+  "preferGlobal": true,
+  "bin": "src/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Abhishek971999/dummyimg/issues"
+  },
+  "homepage": "https://github.com/Abhishek971999/dummyimg#readme",
+  "keywords": [
+    "dummyimg",
+    "placeholder",
+    "image",
+    "dummy-placeholder",
+    "dummy"
+  ],
+  "author": "Abhishek Mogaveera",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "dotenv": "^10.0.0",
+    "request": "^2.88.2"
+  }
+}
